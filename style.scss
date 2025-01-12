@@ -75,11 +75,16 @@
     font-weight: 700;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .cv-wrapper {
         width: 100%;
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cv-wrapper {
+        padding: 16px;
 
         .cv-left {
             .cv-header {
@@ -94,11 +99,4 @@
         }
     }
     
-}
-
-@media screen and (max-width: 1200px) {
-    .cv-wrapper {
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
 }

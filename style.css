@@ -64,22 +64,21 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .cv-wrapper {
     width: 100%;
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cv-wrapper {
+    padding: 16px;
   }
   .cv-wrapper .cv-left .cv-header .cv-link {
     font-size: 1rem;
   }
   .cv-wrapper .cv-left .cv-header .cv-name {
     font-size: 3.5rem;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .cv-wrapper {
-    width: 100%;
-    grid-template-columns: 1fr;
   }
 }
 
